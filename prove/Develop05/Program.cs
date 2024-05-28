@@ -1,9 +1,14 @@
 using System;
-
-class Program
+using System.Collections.Generic;
+using System.IO;
+namespace eternal_quest
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello Develop05 World!");
+        static void Main()
+        {
+            GoalManager goalManager = new GoalManager(); // create new goal manager
+            goalManager.Start();
+        }
     }
 }
